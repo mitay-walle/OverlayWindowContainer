@@ -1,3 +1,11 @@
+using System;
+using System.Reflection;
+using UnityEditor;
+using UnityEngine;
+using Object = UnityEngine.Object;
+
+namespace Plugins.Editor
+{
 	/// <summary>
 	/// Allow to draw stacked floating <see cref="EditorWindow"/> in <see cref="SceneView"/>, similar to <see cref="ParticleSystem"/>
 	/// <br/><br/>HOW TO:
@@ -36,3 +44,4 @@
 			OneWindowPerTitle,
 		}
 	}
+}
